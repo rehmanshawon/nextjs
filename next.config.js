@@ -29,7 +29,7 @@ const nextConfig = {
     dbConfig: {
       // host: "3.92.234.242",
       host: "127.0.0.1",
-      port: 25060,
+      port: 3306,
       user: "doadmin",
       password: "AVNS_uIfHPkqru-7m-v1yw-i", // @@@
       database: "borna_db",
