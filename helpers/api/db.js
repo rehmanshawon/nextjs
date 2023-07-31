@@ -25,7 +25,6 @@ async function initialize() {
     },
     dialectOptions: {
       ssl: {
-        require: true,
         rejectUnauthorized: false,
       },
     },
