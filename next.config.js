@@ -28,11 +28,11 @@ const nextConfig = {
   serverRuntimeConfig: {
     dbConfig: {
       // host: "3.92.234.242",
-      host: "3.95.176.100",
-      port: 3306,
-      user: "admin",
-      password: "ApsisINT@123", // @@@
-      database: "kopotron_example_next",
+      host: "dbaas-db-10344356-do-user-14451522-0.b.db.ondigitalocean.com",
+      port: 25060,
+      user: "doadmin",
+      password: "AVNS_uIfHPkqru-7m-v1yw-i", // @@@
+      database: "borna_db",
     },
     secret:
       "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
@@ -40,8 +40,8 @@ const nextConfig = {
   publicRuntimeConfig: {
     apiUrl:
       process.env.NODE_ENV === "development"
-        ? "http://3.95.176.100:3000/api" // development api
-        : "http://3.95.176.100:3000/api", // production api
+        ? "http://142.93.208.249:3000/api" // development api
+        : "http://142.93.208.249:3000/api", // production api
   },
 };
 
