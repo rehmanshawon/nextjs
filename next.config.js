@@ -28,8 +28,8 @@ const nextConfig = {
   serverRuntimeConfig: {
     dbConfig: {
       // host: "3.92.234.242",
-      host: "127.0.0.1",
-      port: 3306,
+      host: "private-dbaas-db-10344356-do-user-14451522-0.b.db.ondigitalocean.com",
+      port: 25060,
       user: "doadmin",
       password: "AVNS_uIfHPkqru-7m-v1yw-i", // @@@
       database: "borna_db",
@@ -40,8 +40,8 @@ const nextConfig = {
   publicRuntimeConfig: {
     apiUrl:
       process.env.NODE_ENV === "development"
-        ? "http://localhost:3000/api" // development api
-        : "http://localhost:3000/api", // production api
+        ? "http://142.93.208.249:3000/api" // development api
+        : "http://142.93.208.249:3000/api", // production api
   },
 };
 
