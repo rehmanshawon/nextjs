@@ -27,8 +27,8 @@ const nextConfig = {
   },
   serverRuntimeConfig: {
     dbConfig: {
-      // host: "3.92.234.242",
-      host: "dbaas-db-10344356-do-user-14451522-0.b.db.ondigitalocean.com",
+      host: "127.0.0.1",
+      //host: "dbaas-db-10344356-do-user-14451522-0.b.db.ondigitalocean.com",
       port: 25060,
       user: "doadmin",
       password: "AVNS_uIfHPkqru-7m-v1yw-i", // @@@
