@@ -27,9 +27,9 @@ const nextConfig = {
   },
   serverRuntimeConfig: {
     dbConfig: {
-      // host: "127.0.0.1",
-      host: "dbaas-db-10344356-do-user-14451522-0.b.db.ondigitalocean.com",
-      port: "25060",
+      host: "127.0.0.1",
+      //host: "dbaas-db-10344356-do-user-14451522-0.b.db.ondigitalocean.com",
+      port: 25060,
       user: "doadmin",
       password: "AVNS_uIfHPkqru-7m-v1yw-i",
       database: "borna_db",
