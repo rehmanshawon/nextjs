@@ -30,6 +30,7 @@ async function initialize() {
   const sequelize = new Sequelize(database, user, password, {
     dialect: "mysql",
     logging: true,
+    ssl: true,
   });
 
   // init models and add them to the exported db object
